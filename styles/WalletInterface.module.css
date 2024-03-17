@@ -1,0 +1,51 @@
+.connectButton{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: hsl(120, 100%, 27%);
+    color: rgb(236, 234, 230);
+    border: none;
+    font-size: 1em;
+    margin: 10px;
+}
+
+.connectButton:hover{
+    background-color: hsla(120, 100%, 27%, 0.8);
+    cursor: pointer;
+    
+}
+
+.balanceDisplay{
+    padding: 5px;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.walletBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.reloadButton{
+    padding: 3px;
+    margin-right: 3px;
+    height: 15px;
+    box-sizing: content-box;
+    background-color: inherit;
+    border: none;
+    border-radius: 3px;
+}
+.reloadButton:hover{
+    cursor: pointer;
+    background-color: hsla(0, 0%, 71%, 0.559);
+}
+.reloadButton img{
+    padding: 0px;
+    width: 15px;
+    height: 15px;
+}
